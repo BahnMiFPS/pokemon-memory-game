@@ -8,7 +8,7 @@
   <h3 align="center">Pokemon Memory Game</h3>
 
   <p align="center">
-    
+    Pokemon API is actually nuts
     <br />
     <br />
     <br />
