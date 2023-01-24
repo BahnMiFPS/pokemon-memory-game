@@ -33,7 +33,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 80vh;
+	height: 100%;
 	margin-bottom: 5rem;
 	width: 60%;
 }
@@ -54,8 +54,6 @@ body {
 	width: 300px;
 }
 
-.header button {
-}
 .btn {
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: #0572ba;
