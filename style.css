@@ -34,7 +34,6 @@ body {
 	align-items: center;
 	height: 80vh;
 	width: 60%;
-	flex-grow: 1;
 }
 
 .header {
