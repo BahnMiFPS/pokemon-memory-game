@@ -8,15 +8,15 @@
   <h3 align="center">Pokemon Memory Game</h3>
 
   <p align="center">
-    Pokemon API is actually nuts
+    
     <br />
     <br />
     <br />
-    <a href="https://bahnmifps-calculator.netlify.app/">View Demo</a>
+    <a href="https://bahnmifps-pokemon.netlify.app/">View Demo</a>
     ·
-    <a href="https://github.com/BahnMiFPS/calculator/issues">Report Bug</a>
+    <a href="https://github.com/BahnMiFPS/pokemon-memory-game/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BahnMiFPS/calculator/issues">Request Feature</a>
+    <a href="https://github.com/BahnMiFPS/pokemon-memory-game/issues">Request Feature</a>
   </p>
 </div>
 
@@ -24,9 +24,9 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://bahnmifps-calculator.netlify.app/)
+[![Product Name Screen Shot][product-screenshot]](https://bahnmifps-pokemon.netlify.app/)
 
-This is a shitty calculator I know. But I will eventually get back to it.
+Pokemon API is actually nuts
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -34,10 +34,7 @@ This is a shitty calculator I know. But I will eventually get back to it.
 
 ## Roadmap
 
-- [ ] Ability to overlap operators.
-- [ ] Better Del button.
-- [ ] Add decimals.
-- [ ] Fix html hardcodes
+- [ ] ... ... ...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -47,7 +44,7 @@ This is a shitty calculator I know. But I will eventually get back to it.
 
 BahnMiFPS
 
-Project Link: [https://github.com/BahnMiFPS/calculator](https://github.com/BahnMiFPS/calculator)
+Project Link: [https://github.com/BahnMiFPS/pokemon-memory-game](https://github.com/BahnMiFPS/pokemon-memory-game)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
