@@ -103,7 +103,13 @@ const clickCard = (event) => {
 			matches++
 			if (matches === 8) {
 				setTimeout(() => {
-					game.innerHTML = `<img src="https://preview.redd.it/u97qpd4knu161.png?width=1920&format=png&auto=webp&v=enabled&s=46da0ddf247dab8de0db6ca6a8cc2b51d942c074" class="win-card" />`
+					game.innerHTML = `
+					<div class="won">
+					<img src="https://preview.redd.it/u97qpd4knu161.png?width=1920&format=png&auto=webp&v=enabled&s=46da0ddf247dab8de0db6ca6a8cc2b51d942c074" class="win-card" />
+					<div class="win-title">YOU WON!! <br/>Hit the New Game Button to continue!</div>
+					</div>
+			
+					`
 				}, 2000)
 			}
 
