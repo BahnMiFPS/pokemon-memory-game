@@ -38,7 +38,7 @@ body {
 	width: 60%;
 }
 
-.header {
+/* .header {
 	text-align: center;
 	display: flex;
 	flex-direction: row;
@@ -48,6 +48,15 @@ body {
 	align-items: center;
 	margin-bottom: 5rem;
 	margin-top: 2rem;
+} */
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 3%;
 }
 
 .header img {
@@ -89,7 +98,7 @@ body {
 	}
 }
 
-.pokedex {
+/* .pokedex {
 	display: flex;
 	justify-content: center;
 	border: 1.4rem solid #fecc03;
@@ -103,22 +112,36 @@ body {
 .pokedex-hidden {
 	opacity: 0;
 	visibility: hidden;
-}
+} */
 
 .game {
-	box-sizing: border-box;
+	/* height: 100%;
 	width: 100%;
 	display: flex;
-	height: 100%;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
-	border: 1.2rem solid #0572ba;
-	background-color: #fecd03;
-	padding: 2rem 0rem 2rem 0rem;
-	border-radius: 5%;
 	-webkit-box-shadow: inset 0px -1px 15px 5px #000000;
-	box-shadow: inset 0px -1px 15px 5px #000000;
+	box-shadow: inset 0px -1px 15px 5px #000000; */
+	display: grid;
+	grid-template-columns: repeat(4, 160px);
+	grid-template-rows: repeat(4, 160px);
+	background-color: #fecd03;
+	border: 1.2rem solid #0572ba;
+	padding: 2rem;
+	border-radius: 5%;
+	grid-gap: 10px;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100vh;
+	font-family: pokemon;
+	letter-spacing: 5px;
+	gap: 10px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 .win-card {
@@ -126,13 +149,18 @@ body {
 }
 
 .card {
-	width: 18%;
+	/* width: 18%;
 	height: 22%;
 	margin: 0.5rem 2rem 0.5rem 2rem;
 	box-shadow: 0 3px 10px rgba(200, 200, 200, 0.9);
-	border-radius: 10%;
+	border-radius: 10px;
 	overflow: hidden;
+	transform-style: preserve-3d; */
+	box-shadow: 0 3px 10px rgba(200, 200, 200, 0.9);
+	border-radius: 10px;
+	position: relative;
 	transform-style: preserve-3d;
+	overflow: hidden;
 }
 
 .card h2 {
@@ -164,7 +192,7 @@ body {
 }
 
 .front {
-	background-image: url(/images/pokeloader.png);
+	background-image: url(/images/pokeball.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-color: black;

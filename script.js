@@ -127,7 +127,7 @@ const rotateCards = function (e) {
 
 const resetGame = () => {
 	loader.classList.remove("loader-hidden")
-	pokedex.classList.add("pokedex-hidden")
+	// pokedex.classList.add("pokedex-hidden")
 	game.innerHTML = ""
 	isPaused = true
 	firstCard = null
@@ -135,7 +135,7 @@ const resetGame = () => {
 	load()
 
 	setTimeout(async () => {
-		pokedex.classList.remove("pokedex-hidden")
+		// pokedex.classList.remove("pokedex-hidden")
 		const pokemon = await loadPokemon()
 		displayPokemon([...pokemon, ...pokemon])
 		isPaused = false
